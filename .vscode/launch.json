@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Hackathon",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "SandboxCronus",
+            "startupObjectId": 50001,            
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "server": "https://businesscentral.dynamics.com/",
+            "tenant": "70aa2a28-7097-4af0-a6cd-53a434c6d341",
+            "schemaUpdateMode": "ForceSync",
+            "breakOnRecordWrite": false    
+
+        } 
+    ]
+}
